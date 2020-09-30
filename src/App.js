@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import styled from "styled-components";
+import Header from "./components/Header";
+import TwoImages from "./components/TwoImages";
+import BestSellers from "./components/BestSellers";
+import Banner from "./components/Banner";
+import SingleItem from "./components/SingleItem";
+import NewArrivals from "./components/NewArrivals";
+import SingleItem2 from "./components/SingleItem2";
+import Footer from "./components/Footer";
+import GlobalStyles from "./components/GlobalStyles";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Div>
+        <Header />
+      </Div>
+      <TwoImages />
+      <BestSellers />
+      <Banner />
+      <SingleItem />
+      <NewArrivals />
+      <SingleItem2 />
+      <Footer />
+      <GlobalStyles />
     </div>
   );
 }
 
 export default App;
+
+const Div = styled.div`
+  position: sticky;
+  top: -50px;
+  background-color: white;
+`;
