@@ -1,52 +1,52 @@
 import React from "react";
 import styled from "styled-components";
-import data from '../data.json'
+import data from '../utils/data.json'
 
-const SingleItem2 = () => {
+const ImageCaption2 = () => {
   return (
     <Wrapper>
-      <LeftPannel>
-        <Img src={data.singleItem2.leftPanelImg} />
-      </LeftPannel>
-      <RightPannel>
+      <LeftPanel>
+        <Img src={data.imageCaption2.leftPanelImg} />
+      </LeftPanel>
+      <RightPanel>
         <P1>
-          {data.singleItem2.rightPanelInfo.p1}
+          {data.imageCaption2.rightPanelInfo.p1}
         </P1>
         <P2>
-          {data.singleItem2.rightPanelInfo.p2}
+          {data.imageCaption2.rightPanelInfo.p2}
         </P2>
-      </RightPannel>
+      </RightPanel>
     </Wrapper>
   );
 };
 
-export default SingleItem2;
+export default ImageCaption2;
 
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     margin-top: 15px;
     margin-left: 90px;
+    margin-bottom: 100px;
 
 `;
 
-const LeftPannel = styled.div`
-width: 40%;
+const LeftPanel = styled.div`
 `;
 
 const Img = styled.img`
-    width: 700px;
+    width: 500px;
     margin-left: 150px;
 
 `;
 
-const RightPannel = styled.div`
+const RightPanel = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 60%;
+    width: 75%;
     margin-right: 150px;
     line-height: 2;
 `;

@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import data from '../data.json'
+import data from '../utils/data.json'
 
 const GlobalStyles = createGlobalStyle`
 

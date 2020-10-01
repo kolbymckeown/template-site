@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
 import Header from "./components/Header";
-import TwoImages from "./components/TwoImages";
+import SplitBanner from "./components/SplitBanner";
 import BestSellers from "./components/BestSellers";
 import Banner from "./components/Banner";
-import SingleItem from "./components/SingleItem";
+import ImageCaption from "./components/ImageCaption";
 import NewArrivals from "./components/NewArrivals";
-import SingleItem2 from "./components/SingleItem2";
+import ImageCaption2 from "./components/ImageCaption2";
 import Footer from "./components/Footer";
 import GlobalStyles from "./components/GlobalStyles";
 
@@ -16,12 +16,12 @@ function App() {
       <Div>
         <Header />
       </Div>
-      <TwoImages />
+      <SplitBanner />
       <BestSellers />
       <Banner />
-      <SingleItem />
+      <ImageCaption />
       <NewArrivals />
-      <SingleItem2 />
+      <ImageCaption2 />
       <Footer />
       <GlobalStyles />
     </div>

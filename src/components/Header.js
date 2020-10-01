@@ -2,20 +2,20 @@ import React from "react";
 import styled from "styled-components";
 import { BsSearch, BsBag } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
-import data from '../data.json'
+import data from '../utils/data.json'
 
 const Header = () => {
   return (
     <Wrapper>
       <Top>
-        <p>{data.header.top}</p>
+        <p>{data.header.announcement}</p>
       </Top>
       <Middle>
         <Lang>
-        <p>{data.header.middle.languages}</p>
+        <p>{data.header.center.languages}</p>
         </Lang>
         <Logo>
-          <Img src={data.header.middle.logo} />
+          <Img src={data.header.center.logo} />
         </Logo>
         <div style={{display: 'flex'}}>
         <Search>
@@ -31,10 +31,10 @@ const Header = () => {
       </Middle>
       <Bottom>
         <Nav>
-            <A href="#">{data.header.bottom.option1}</A>
-            <A href="#">{data.header.bottom.option2}</A>
-            <A href="#">{data.header.bottom.option3}</A>
-            <A href="#">{data.header.bottom.option4}</A>
+            <A href="#">{data.header.categories.option1}</A>
+            <A href="#">{data.header.categories.option2}</A>
+            <A href="#">{data.header.categories.option3}</A>
+            <A href="#">{data.header.categories.option4}</A>
         </Nav>
       </Bottom>
     </Wrapper>
@@ -100,7 +100,7 @@ const Bottom = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: ${data.header.bottom.color};
+    background: ${data.header.categories.backgroundColor};
     padding: 10px;
 `;
 
@@ -111,5 +111,5 @@ const Nav = styled.nav`
 const A = styled.a`
     padding: 28px;
     text-decoration: none;
-    color: ${data.header.bottom.fontColor};
+    color: ${data.header.categories.fontColor};
 `;

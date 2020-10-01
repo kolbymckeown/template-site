@@ -1,0 +1,80 @@
+{
+    "styles": {
+        "fontFamily": "'News Cycle', sans-serif"
+    },
+    "header": {
+        "announcement": "Free Standard Shipping on Orders Over ₩80'000",
+        "center": {
+            "languages": "한국어 / English",
+            "logo": "https://logos-download.com/wp-content/uploads/2016/02/Giorgio_Armani_logo_transparent.png"
+        },
+        "categories": {
+            "option1": "MAN",
+            "option2": "WOMAN",
+            "option3": "KIDS",
+            "option4": "LIFESTYLE",
+            "backgroundColor": "white",
+            "fontColor": "black"
+        }
+    },
+    "items": [{
+        "name": "Polka-dot canvas sneakers with logo",
+        "price": "CAD$ 839",
+        "tax": "(duty & tax incl.)",
+        "img": "https://www.armani.com/11/11910970UO_16_f.jpg"
+    },
+    {
+        "name": "Waterproof nylon backpack",
+        "price": "CAD$ 2,009",
+        "tax": "(duty & tax incl.)",
+        "img": "https://www.armani.com/45/45529784AA_16_r.jpg"
+    },
+    {
+        "name": "Small, palmellato leather La Prima bag",
+        "price": "CAD$ 1,762",
+        "tax": "(duty & tax incl.)",
+        "img": "https://www.armani.com/55/55018511MT_16_f.jpg"
+    },
+    {
+        "name": "Hybrid watch",
+        "price": "CAD$ 230",
+        "tax": "(duty & tax incl.)",
+        "img": "https://www.armani.com/50/50247724UI_16_f.jpg"
+    }],
+
+    "splitBanner": {
+        "img1": "https://www.armani.com/cloud/armanif31wp/uploads/2020/08/GAM_editorial_TRANSITIONAL.jpg?imdensity=1&imwidth=768",
+        "img2": "https://www.armani.com/cloud/armanif31wp/uploads/2020/08/GAW_editorial_TRANSITIONAL.jpg?imdensity=1&imwidth=500"
+    },
+    "carousel1Details": {
+        "title": "Best Sellers",
+        "category1": "Men's",
+        "category2": "Women's",
+        "buttonText": "View All"
+    },
+    "banner": {
+        "url": "https://www.armani.com/cloud/armanif31wp/uploads/2020/09/Emporio_Armani_Vto_Home_Page.jpg?imdensity=1&imwidth=1920"
+    },
+    "imageCaption": {
+        "image": "https://www.armani.com/cloud/armanif31wp/uploads/2020/04/Emporio_Armani_W_Watches.jpg?imdensity=1&imwidth=1440",
+        "title": "TIMELESS ITALIAN DESIGN",
+        "caption": "Elegant and contemporary, this Emporio Armani watch features a silver tone case, a sunray tone dial with exquisite crystal hour markers. A link strap completes the design.",
+        "buttonText": "Learn More"
+    },
+    "carousel2Details": {
+        "title": "New Arrivals",
+        "category1": "Men's",
+        "category2": "Women's",
+        "buttonText": "View All"
+    },
+    "imageCaption2": {
+        "leftPanelImg": "https://www.armani.com/46/46675649TF_16_d.jpg",
+        "rightPanelInfo": {
+            "p1": "At Armani we see things differently. Inspired by our Italian origins, we reimagine both modern and classic design bringing art and precision to watches you’ll wear every day.",
+            "p2": "Armani glasses are designed in house, partnering with trusted manufacturers to ensure quality is at the heart of every product. We use only hand-finished materials to deliver premium detailing and durability."
+        }
+    },
+    "footer": {
+        "img": "https://i.ibb.co/0jp5vcS/Footer.png"
+    }
+}

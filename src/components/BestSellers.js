@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { BsHeart } from "react-icons/bs";
-import data from "../data.json";
+import data from '../utils/data.json'
 
 const BestSellers = () => {
   return (
     <Wrapper>
-      <Title>{data.itemDetails.title}</Title>
+      <Title>{data.carousel1Details.title}</Title>
       <OptionsNav>
-        <A href="#" style={{borderBottom: "1px solid black"}}>{data.itemDetails.nav.option1}</A>
-        <A href="#">{data.itemDetails.nav.option2}</A>
+        <A href="#" style={{borderBottom: "1px solid black"}}>{data.carousel1Details.category1}</A>
+        <A href="#">{data.carousel1Details.category2}</A>
       </OptionsNav>
       <ItemsCont>
         {data.items.map((item) => {
@@ -28,7 +28,7 @@ const BestSellers = () => {
           );
         })}
       </ItemsCont>
-      <Button>{data.itemDetails.button}</Button>
+      <Button>{data.carousel1Details.buttonText}</Button>
     </Wrapper>
   );
 };

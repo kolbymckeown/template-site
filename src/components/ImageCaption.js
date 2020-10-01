@@ -1,25 +1,25 @@
 import React from "react";
 import styled from "styled-components";
-import data from '../data.json'
+import data from '../utils/data.json'
 
-const SingleItem = () => {
+const ImageCaption = () => {
   return (
     <Wrapper>
-      <LeftPannel>
-        <ItemImg src={data.singleItem.itemImg} />
-      </LeftPannel>
-      <RightPannel>
-        <Title>{data.singleItem.title}</Title>
-        <ItemDesc>
-          {data.singleItem.itemDesc}
-        </ItemDesc>
-        <Button>{data.singleItem.buttonText}</Button>
-      </RightPannel>
+      <LeftPanel>
+        <Img src={data.imageCaption.image} />
+      </LeftPanel>
+      <RightPanel>
+        <Title>{data.imageCaption.title}</Title>
+        <Caption>
+          {data.imageCaption.caption}
+        </Caption>
+        <Button>{data.imageCaption.buttonText}</Button>
+      </RightPanel>
     </Wrapper>
   );
 };
 
-export default SingleItem;
+export default ImageCaption;
 
 const Wrapper = styled.div`
   display: flex;
@@ -30,15 +30,15 @@ const Wrapper = styled.div`
 
 `;
 
-const ItemImg = styled.img`
+const Img = styled.img`
   width: 900px;
   height: auto;
   padding-left: 155px;
 `;
 
-const LeftPannel = styled.div``;
+const LeftPanel = styled.div``;
 
-const RightPannel = styled.div`
+const RightPanel = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,7 +52,7 @@ const Title = styled.p`
   margin-bottom: 20px;
 `;
 
-const ItemDesc = styled.p`
+const Caption = styled.p`
   width: 75%;
   font-size: 14px;
   text-align: center;

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import data from '../data.json'
+import data from '../utils/data.json'
 
 const Banner = () => {
     return (
@@ -13,12 +13,8 @@ const Banner = () => {
 export default Banner;
 
 const Wrapper = styled.div`
-    height: 1000px;
     width: 100vw;
-    
-
 `
 const Img = styled.img`
     width: 100vw;
-    height: 900px;
 `;

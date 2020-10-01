@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import FooterImg from '../Footer.png'
-import data from '../data.json'
+import data from '../utils/data.json'
 
 const Footer = () => {
     return (
