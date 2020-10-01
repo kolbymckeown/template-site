@@ -2,35 +2,39 @@ import React from "react";
 import styled from "styled-components";
 import { BsSearch, BsBag } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
-import CompanyLogo from '../Logo.png'
+import data from '../data.json'
 
 const Header = () => {
   return (
     <Wrapper>
       <Top>
-        <p>Free Standard Shipping on Orders Over ₩80'000</p>
+        <p>{data.header.top}</p>
       </Top>
       <Middle>
         <Lang>
-          <p>한국어 / English</p>
+        <p>{data.header.middle.languages}</p>
         </Lang>
         <Logo>
-          <img src={CompanyLogo} />
+          <Img src={data.header.middle.logo} />
         </Logo>
+        <div style={{display: 'flex'}}>
         <Search>
-          <BsSearch />
+          <BsSearch style={{marginRight: '5px'}} />
           <Input type="text" placeholder="Search" />
-
-          <AiOutlineHeart />
-          <BsBag />
         </Search>
+
+        <Div>
+          <AiOutlineHeart />
+          <BsBag style={{marginLeft: '8px'}}/>
+        </Div>
+        </div>
       </Middle>
       <Bottom>
         <Nav>
-            <A href="#">MENS</A>
-            <A href="#">WOMENS</A>
-            <A href="#">WATCHES</A>
-            <A href="#">ACCESSORIES</A>
+            <A href="#">{data.header.bottom.option1}</A>
+            <A href="#">{data.header.bottom.option2}</A>
+            <A href="#">{data.header.bottom.option3}</A>
+            <A href="#">{data.header.bottom.option4}</A>
         </Nav>
       </Bottom>
     </Wrapper>
@@ -43,6 +47,10 @@ const Wrapper = styled.div`
     
 `;
 
+const Div = styled.div`
+  font-size: 22px;
+`;
+
 const Top = styled.div`
   display: flex;
   justify-content: center;
@@ -51,6 +59,10 @@ const Top = styled.div`
   color: ghostwhite;
   padding: 18px;
   font-size: 14px;
+`;
+
+const Img = styled.img`
+  height: 40px;
 `;
 
 const Middle = styled.div`
@@ -76,6 +88,7 @@ const Logo = styled.div`
 const Search = styled.div`
     border-bottom: 1px solid black;
     font-size: 20px;
+    position: relative;
 `;
 
 const Input = styled.input`
@@ -87,7 +100,7 @@ const Bottom = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    background: #add7c9;
+    background: ${data.header.bottom.color};
     padding: 10px;
 `;
 
@@ -98,5 +111,5 @@ const Nav = styled.nav`
 const A = styled.a`
     padding: 28px;
     text-decoration: none;
-    color: black;
+    color: ${data.header.bottom.fontColor};
 `;

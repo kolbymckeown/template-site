@@ -34,4 +34,5 @@ const Div = styled.div`
   position: sticky;
   top: -50px;
   background-color: white;
+  z-index: 1000;
 `;

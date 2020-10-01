@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import data from '../data.json'
 
 const GlobalStyles = createGlobalStyle`
 
@@ -21,7 +22,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	vertical-align: baseline;
-    font-family: 'Montserrat', sans-serif;
+    font-family: ${data.styles.fontFamily}
 	
 
 }

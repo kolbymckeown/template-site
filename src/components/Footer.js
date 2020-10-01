@@ -1,11 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import FooterImg from '../Footer.png'
+import data from '../data.json'
 
 const Footer = () => {
     return (
         <Wrapper>
-            <Img src={FooterImg} />
+            <Img src={data.footer.img} />
         </Wrapper>
     )
 }
@@ -14,9 +15,10 @@ export default Footer;
 
 const Wrapper = styled.div`
     height: 500px;
-    width: 100vh;
     margin-top: 25px;
-    margin-bottom: 30px;
 `;
 
-const Img = styled.img``;
+const Img = styled.img`
+    height: 500px;
+    width: 100vw;
+`;

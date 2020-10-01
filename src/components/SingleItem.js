@@ -1,21 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import data from '../data.json'
 
 const SingleItem = () => {
   return (
     <Wrapper>
       <LeftPannel>
-        <ItemImg src="https://kr.larssonjennings.com/images/home/watches/timeless-british-design.jpg" />
+        <ItemImg src={data.singleItem.itemImg} />
       </LeftPannel>
       <RightPannel>
-        <Title>TIMELESS BRITISH DESIGN</Title>
+        <Title>{data.singleItem.title}</Title>
         <ItemDesc>
-          Our design ethos marries a classic British aesthetic with minimal
-          Swedish design. Meticulously designed in our London studio, Larsson &
-          Jennings reimagines classic, challenging the status quo through design
-          and innovation.
+          {data.singleItem.itemDesc}
         </ItemDesc>
-        <Button>Learn More</Button>
+        <Button>{data.singleItem.buttonText}</Button>
       </RightPannel>
     </Wrapper>
   );
@@ -29,6 +27,7 @@ const Wrapper = styled.div`
   justify-content: space-around;
   margin-top: 50px;
   margin-right: 150px;
+
 `;
 
 const ItemImg = styled.img`
@@ -45,6 +44,7 @@ const RightPannel = styled.div`
   justify-content: center;
   align-items: center;
   width: 50%;
+  line-height: 2;
 `;
 
 const Title = styled.p`

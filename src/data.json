@@ -1,0 +1,76 @@
+{
+    "header": {
+        "top": "FREE RETURNS + FREE SHIPPING ON ORDERS $75+CDN",
+        "middle": {
+            "languages": "FR / EN",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Under_armour_logo.svg/1200px-Under_armour_logo.svg.png"
+        },
+        "bottom": {
+            "option1": "Men",
+            "option2": "Women",
+            "option3": "Kids",
+            "option4": "Shoes",
+            "color": "black",
+            "fontColor": "white"
+        }
+    },
+    "twoImages": {
+        "img1": "https://underarmour.scene7.com/is/image/Underarmour/FW20_UA_SportsMask_GoGen_Site_2_1_V2?qlt=75&fmt=jpg&wid=1440&op_sharpen=1&hei=720&",
+        "img2": "https://underarmour.scene7.com/is/image/Underarmour/FW20_TRN_Apex_Site_3_2?qlt=75&fmt=jpg&wid=1080&op_sharpen=1&hei=720&"
+    },
+    "banner": {
+        "url": "https://underarmour.scene7.com/is/image/Underarmour/FW20_ECOM_BTS_FP_Fleece_M_Site_2_1?qlt=75&fmt=jpg&wid=1440&op_sharpen=1&hei=720&"
+    },
+    "singleItem": {
+        "itemImg": "https://underarmour.scene7.com/is/image/Underarmour/FW20_TRN_Apex_Site_5_4_5?qlt=75&fmt=jpg&scl=1&",
+        "title": "WHAT'S IT DO?",
+        "itemDesc": "Project Rock training gear was built to help you find boundaries, then push right through them. Everything in this collection was personally approved by Dwayne Johnson, the hardest worker in the room. ANY room.",
+        "buttonText": "Learn More"
+    },
+    "items": [{
+        "name": "Men's UA Project Rock 3 Training Shoes",
+        "price": "$180.00 CDN",
+        "tax": "(duty & tax incl.)",
+        "img": "https://underarmour.scene7.com/is/image/Underarmour/3023004-100_DEFAULT?rp=standard-30pad%7CpdpZoomDesktop&scl=0.50&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=850,850"
+    },
+    {
+        "name": "Men's UA HOVR™ Machina Running Shoes",
+        "price": "$190.00 CDN",
+        "tax": "(duty & tax incl.)",
+        "img": "https://underarmour.scene7.com/is/image/Underarmour/3021939-601_DEFAULT?rp=standard-30pad%7CpdpZoomDesktop&scl=0.50&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=850,850"
+    },
+    {
+        "name": "UA HOVR™ Havoc 3 Basketball Shoes",
+        "price": "$140.00 CDN",
+        "tax": "(duty & tax incl.)",
+        "img": "https://underarmour.scene7.com/is/image/Underarmour/3023088-602_DEFAULT?rp=standard-30pad%7CpdpZoomDesktop&scl=0.50&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=850,850"
+    },
+    {
+        "name": "Men's UA Ignite VI Slides",
+        "price": "$40.00 CDN",
+        "tax": "(duty & tax incl.)",
+        "img": "https://underarmour.scene7.com/is/image/Underarmour/3022711-003_DEFAULT?rp=standard-30pad%7CpdpZoomDesktop&scl=0.50&fmt=jpg&qlt=85&resMode=sharp2&cache=on,on&bgc=f0f0f0&wid=1836&hei=1950&size=850,850"
+    }],
+    "itemDetails": {
+        "title": "Best Sellers",
+        "title2": "New Arrivals",
+        "nav": {
+            "option1": "Men's",
+            "option2": "Women's"
+        },
+        "button": "View All"
+    },
+    "singleItem2": {
+        "leftPanelImg": "https://underarmour.scene7.com/is/image/Underarmour/FW20_TRN_ProjectRock_Site_2_1_W?qlt=75&fmt=jpg&scl=1&",
+        "rightPanelInfo": {
+            "p1": "PROJECT ROCK COLLECTION: FOR THE HARDEST WORKERS IN THE ROOM",
+            "p2": "The Project Rock collection isn't about a name or a logo—it's about the gear you need to put in the work and overcome any obstacle. New aerodynamic cut and soft, straight feel. Wicks sweat and dries fast to keep you cool. Stretchy, anti-odor fabric is built to last. New streamlined fit and cut. Same soft, ultralight feel and quick-drying, sweat-wicking performance."
+        }
+    },
+    "footer": {
+        "img": "https://i.ibb.co/0jp5vcS/Footer.png"
+    },
+    "styles": {
+        "fontFamily": "'News Cycle', sans-serif"
+    }
+}

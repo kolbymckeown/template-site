@@ -1,0 +1,71 @@
+{
+    "header": {
+        "top": "Free Standard Shipping on Orders Over ₩80'000",
+        "middle": {
+            "languages": "한국어 / English",
+            "logo": "https://i.ibb.co/c3HwgRN/download.png"
+        },
+        "bottom": {
+            "option1": "MENS",
+            "option2": "WOMENS",
+            "option3": "WATCHES",
+            "option4": "ACCESSORIES"
+        }
+    },
+    "twoImages": {
+        "img1": "https://kr.larssonjennings.com/images/home/featured/pb1-en.jpg",
+        "img2": "https://kr.larssonjennings.com/images/home/featured/pb2-en.jpg"
+    },
+    "banner": {
+        "url": "https://kr.larssonjennings.com/images/home/featured/pb4-en-d.jpg"
+    },
+    "singleItem": {
+        "itemImg": "https://kr.larssonjennings.com/images/home/watches/timeless-british-design.jpg",
+        "title": "TIMELESS BRITISH DESIGN",
+        "itemDesc": "Our design ethos marries a classic British aesthetic with minimal Swedish design. Meticulously designed in our London studio, Larsson & Jennings reimagines classic, challenging the status quo through design and innovation.",
+        "buttonText": "Learn More"
+    },
+    "items": [{
+        "name": "LJXII LUGANO LEATHER 40MM",
+        "price": "₩235,000",
+        "tax": "(duty & tax incl.)",
+        "img": "https://i.localised.com/img/lj/product/f1519650-1e42-4b74-ad0e-3aab6a9883b5.jpg"
+    },
+    {
+        "name": "LJXII LUGANO MILANESE 40MM",
+        "price": "₩235,000",
+        "tax": "(duty & tax incl.)",
+        "img": "https://i.localised.com/img/lj/product/1b9f1d63-2336-4120-80a4-3cb17e932121.jpg"
+    },
+    {
+        "name": "RALLY VASA LINK 38MM",
+        "price": "₩313,000",
+        "tax": "(duty & tax incl.)",
+        "img": "https://i.localised.com/img/lj/product/850da775-8f9f-4f1d-be6e-a88af66b894a.jpg"
+    },
+    {
+        "name": "Vivid Link 38mm",
+        "price": "₩248,000",
+        "tax": "(duty & tax incl.)",
+        "img": "https://i.localised.com/img/lj/product/c087bb30-038b-4203-88f1-f89b0f41ee1b.jpg"
+    }],
+    "itemDetails": {
+        "title": "Best Sellers",
+        "title2": "New Arrivals",
+        "nav": {
+            "option1": "Men's",
+            "option2": "Women's"
+        },
+        "button": "View All"
+    },
+    "singleItem2": {
+        "leftPanelImg": "https://kr.larssonjennings.com/images/home/about/about-us.jpg",
+        "rightPanelInfo": {
+            "p1": "At Larsson & Jennings we see things differently. Inspired by our London - Stockholm origins, we reimagine both modern and classic design bringing art and precision to watches you’ll wear every day.",
+            "p2": "Larsson & Jennings’ watches are designed in house, partnering with trusted manufacturers to ensure quality is at the heart of every product. We use only hand-finished materials to deliver premium detailing and durability."
+        }
+    },
+    "footer": {
+        "img": "https://i.ibb.co/0jp5vcS/Footer.png"
+    }
+}

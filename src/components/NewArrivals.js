@@ -1,65 +1,35 @@
 import React from "react";
 import styled from "styled-components";
 import { BsHeart } from 'react-icons/bs'
+import data from '../data.json'
 
 const NewArrivals = () => {
     return (
         <Wrapper>
-            <Title>New Arrivals</Title>
-            <OptionsNav>
-                <A href="#">Men's</A>
-                <A href="#">Women's</A>
-            </OptionsNav>
-            <ItemsCont>
-                <Item>
-                    <div style={{position: 'relative'}}>
-                    <ItemImg src="https://i.localised.com/img/lj/product/f1519650-1e42-4b74-ad0e-3aab6a9883b5.jpg" />
-                    <div style={{position: 'absolute', top: '0', right: '0'}}>
-                    <BsHeart />
-                    </div>
-                    </div>
-                    <ItemName>LJXII LUGANO LEATHER 40MM</ItemName>
-                    <ItemPrice>₩235,000</ItemPrice>
-                    <ItemTax>(duty & tax incl.)</ItemTax>
-                </Item>
-                <Item>
-                <div style={{position: 'relative'}}>
-                    <ItemImg src="https://i.localised.com/img/lj/product/1b9f1d63-2336-4120-80a4-3cb17e932121.jpg" />
-                    <div style={{position: 'absolute', top: '0', right: '0'}}>
-                    <BsHeart />
-                    </div>
-                    </div>
-                    <ItemName>LJXII LUGANO MILANESE 40MM</ItemName>
-                    <ItemPrice>₩235,000</ItemPrice>
-                    <ItemTax>(duty & tax incl.)</ItemTax>
-                </Item>
-                <Item>
-                <div style={{position: 'relative'}}>
-                    <ItemImg src="https://i.localised.com/img/lj/product/850da775-8f9f-4f1d-be6e-a88af66b894a.jpg" />
-                    <div style={{position: 'absolute', top: '0', right: '0'}}>
-                    <BsHeart />
-                    </div>
-                    </div>
-                    <ItemName>RALLY VASA LINK 38MM</ItemName>
-                    <ItemPrice>₩313,000</ItemPrice>
-                    <ItemTax>(duty & tax incl.)</ItemTax>
-                </Item>
-                <Item>
-                <div style={{position: 'relative'}}>
-                    <ItemImg src="https://i.localised.com/img/lj/product/c087bb30-038b-4203-88f1-f89b0f41ee1b.jpg" />
-                    <div style={{position: 'absolute', top: '0', right: '0'}}>
-                    <BsHeart />
-                    </div>
-                    </div>
-                    <ItemName>Vivid Link 38mm</ItemName>
-                    <ItemPrice>₩248,000</ItemPrice>
-                    <ItemTax>(duty & tax incl.)</ItemTax>
-                </Item>
-            </ItemsCont>
-            <Button>
-                View All
-            </Button>
-        </Wrapper>
+      <Title>{data.itemDetails.title2}</Title>
+      <OptionsNav>
+        <A href="#" style={{borderBottom: "1px solid black"}}>{data.itemDetails.nav.option1}</A>
+        <A href="#">{data.itemDetails.nav.option2}</A>
+      </OptionsNav>
+      <ItemsCont>
+        {data.items.map((item) => {
+          return (
+            <Item>
+              <div style={{ position: "relative" }}>
+                <ItemImg src={item.img} />
+                <div style={{ position: "absolute", top: "10px", right: "10px" }}>
+                  <BsHeart />
+                </div>
+              </div>
+              <ItemName>{item.name}</ItemName>
+              <ItemPrice>{item.price}</ItemPrice>
+              <ItemTax>{item.tax}</ItemTax>
+            </Item>
+          );
+        })}
+      </ItemsCont>
+      <Button>{data.itemDetails.button}</Button>
+    </Wrapper>
     )
 }
 

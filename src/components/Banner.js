@@ -1,10 +1,11 @@
 import React from 'react'
 import styled from 'styled-components'
+import data from '../data.json'
 
 const Banner = () => {
     return (
         <Wrapper>
-
+            <Img src={data.banner.url} />
         </Wrapper>
     )
 }
@@ -12,9 +13,12 @@ const Banner = () => {
 export default Banner;
 
 const Wrapper = styled.div`
-    height: 800px;
+    height: 1000px;
     width: 100vw;
-    background-image: url('https://kr.larssonjennings.com/images/home/featured/pb4-en-d.jpg');
-    background-size: cover;
+    
 
 `
+const Img = styled.img`
+    width: 100vw;
+    height: 900px;
+`;

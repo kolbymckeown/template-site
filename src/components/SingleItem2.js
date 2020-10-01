@@ -1,23 +1,19 @@
 import React from "react";
 import styled from "styled-components";
+import data from '../data.json'
 
 const SingleItem2 = () => {
   return (
     <Wrapper>
       <LeftPannel>
-        <Img src="https://kr.larssonjennings.com/images/home/about/about-us.jpg" />
+        <Img src={data.singleItem2.leftPanelImg} />
       </LeftPannel>
       <RightPannel>
         <P1>
-          At Larsson & Jennings we see things differently. Inspired by our
-          London - Stockholm origins, we reimagine both modern and classic
-          design bringing art and precision to watches you’ll wear every day.
+          {data.singleItem2.rightPanelInfo.p1}
         </P1>
         <P2>
-          Larsson & Jennings’ watches are designed in house, partnering with
-          trusted manufacturers to ensure quality is at the heart of every
-          product. We use only hand-finished materials to deliver premium
-          detailing and durability.
+          {data.singleItem2.rightPanelInfo.p2}
         </P2>
       </RightPannel>
     </Wrapper>
@@ -29,11 +25,13 @@ export default SingleItem2;
 const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
-    margin: 15px 100px;
+    margin-top: 15px;
+    margin-left: 90px;
+
 `;
 
 const LeftPannel = styled.div`
-width: 50%;
+width: 40%;
 `;
 
 const Img = styled.img`
@@ -48,8 +46,9 @@ const RightPannel = styled.div`
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 50%;
+    width: 60%;
     margin-right: 150px;
+    line-height: 2;
 `;
 
 const P1 = styled.p`
