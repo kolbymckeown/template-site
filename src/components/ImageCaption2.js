@@ -23,21 +23,35 @@ const ImageCaption2 = () => {
 export default ImageCaption2;
 
 const Wrapper = styled.div`
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
+    width: 100%;
     margin-top: 15px;
-    margin-left: 90px;
+    /* margin-left: 90px; */
     margin-bottom: 100px;
-
+    @media (max-width: 640px) {
+      display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-top: 35px;
+    margin-left: unset;
+    justify-content: center;
+  }
 `;
 
 const LeftPanel = styled.div`
 `;
 
 const Img = styled.img`
-    width: 500px;
+    width: 90%;
     margin-left: 150px;
-
+    @media (max-width: 640px) {
+    width: 90vw;
+    margin-left: 20px;
+  }
 `;
 
 const RightPanel = styled.div`
@@ -46,19 +60,27 @@ const RightPanel = styled.div`
     justify-content: center;
     text-align: center;
     align-items: center;
-    width: 75%;
     margin-right: 150px;
     line-height: 2;
+    @media (max-width: 640px) {
+    width: 100%;
+    margin-top: 30px;
+  }
 `;
 
 const P1 = styled.p`
     margin-bottom: 12px;
     font-size: 14px;
     width: 60%;
+    @media (max-width: 640px) {
+    font-size: 10px;
+  }
 `;
 
 const P2 = styled.p`
     width: 60%;
     font-size: 14px;
-
+    @media (max-width: 640px) {
+    font-size: 10px;
+  }
 `;

@@ -81,7 +81,8 @@
     "buttonText": "View All"
   },
   "banner": {
-    "url": "https://underarmour.scene7.com/is/image/Underarmour/FW20_ECOM_BTS_FP_Fleece_M_Site_2_1?qlt=75&fmt=jpg&wid=1440&op_sharpen=1&hei=720&"
+    "url": "https://underarmour.scene7.com/is/image/Underarmour/FW20_ECOM_BTS_FP_Fleece_M_Site_2_1?qlt=75&fmt=jpg&wid=1440&op_sharpen=1&hei=720&",
+    "url2": "https://underarmour.scene7.com/is/image/Underarmour/FW20_TRN_RUSHCG_5_4_HomePageHero_CoG?qlt=75&fmt=jpg&wid=944&hei=720&"
   },
   "imageCaption": {
     "image": "https://underarmour.scene7.com/is/image/Underarmour/FW20_TRN_Apex_Site_5_4_5?qlt=75&fmt=jpg&scl=1&",
@@ -103,6 +104,7 @@
     }
   },
   "footer": {
-    "img": "https://i.ibb.co/0jp5vcS/Footer.png"
+    "img": "https://i.ibb.co/0jp5vcS/Footer.png",
+    "img2": "https://i.ibb.co/8Mt70nP/Mobile-Footer.png"
   }
 }

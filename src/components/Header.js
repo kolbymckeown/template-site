@@ -1,11 +1,29 @@
-import React from "react";
+import React, { useState, useRef } from "react";
+
 import styled from "styled-components";
 import { BsSearch, BsBag } from "react-icons/bs";
 import { AiOutlineHeart } from "react-icons/ai";
 import data from "../utils/data.json";
+import { useWindowSize } from "./helpers";
+import MobileHeader from "./MobileHeader"
+
 
 const Header = () => {
+  const { isMobile } = useWindowSize()
+
+  // if (isMobile) {
+  //   return (
+  //     <>
+  //       <MobileHeader />
+  //     </>
+  //   )
+  // }
+
   return (
+    <>
+    <MobileDiv>
+    <MobileHeader />
+    </MobileDiv>
     <Wrapper>
       <Top>
         <p>{data.header.announcement}</p>
@@ -17,7 +35,7 @@ const Header = () => {
         <Logo>
           <Img src={data.header.center.logo} />
         </Logo>
-        <div style={{ display: "flex" }}>
+        <Icons>
           <Search>
             <BsSearch style={{ marginRight: "5px" }} />
             <Input type="text" placeholder="Search" />
@@ -27,7 +45,7 @@ const Header = () => {
             <AiOutlineHeart style={{ marginLeft: "5px" }} />
             <BsBag style={{ marginLeft: "5px" }} />
           </Div>
-        </div>
+        </Icons>
       </Middle>
       <Bottom>
         <Nav>
@@ -38,15 +56,30 @@ const Header = () => {
         </Nav>
       </Bottom>
     </Wrapper>
+    </>
   );
 };
 
 export default Header;
 
-const Wrapper = styled.div``;
+const Wrapper = styled.div`
+  @media (max-width: 641px) {
+    display: none;
+  }
+`;
+
+const MobileDiv = styled.div`
+  @media (min-width: 640px) {
+    display: none;
+  }
+`;
 
 const Div = styled.div`
   font-size: 22px;
+`;
+
+const Icons = styled.div`
+  display: flex;
 `;
 
 const Top = styled.div`

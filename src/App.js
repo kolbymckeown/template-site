@@ -9,22 +9,26 @@ import NewArrivals from "./components/NewArrivals";
 import ImageCaption2 from "./components/ImageCaption2";
 import Footer from "./components/Footer";
 import GlobalStyles from "./components/GlobalStyles";
+import { theme } from "./theme";
+import { ThemeProvider } from "styled-components";
 
 function App() {
   return (
-    <div>
-      <Div>
-        <Header />
-      </Div>
-      <SplitBanner />
-      <BestSellers />
-      <Banner />
-      <ImageCaption />
-      <NewArrivals />
-      <ImageCaption2 />
-      <Footer />
-      <GlobalStyles />
-    </div>
+    <ThemeProvider theme={theme}>
+      <div>
+        <Div>
+          <Header />
+        </Div>
+        <SplitBanner />
+        <BestSellers />
+        <Banner />
+        <ImageCaption />
+        <NewArrivals />
+        <ImageCaption2 />
+        <Footer />
+        <GlobalStyles />
+      </div>
+    </ThemeProvider>
   );
 }
 

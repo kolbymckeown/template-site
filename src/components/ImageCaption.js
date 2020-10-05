@@ -22,18 +22,33 @@ const ImageCaption = () => {
 export default ImageCaption;
 
 const Wrapper = styled.div`
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-around; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 5%;
   margin-top: 50px;
-  margin-right: 150px;
+  /* margin-right: 150px; */
+  width: 100%;
+  @media (max-width: 640px) {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    margin-top: 35px;
+    justify-content: center;
+  }
 
 `;
 
 const Img = styled.img`
-  width: 900px;
+  width: 100%;
   height: auto;
   padding-left: 155px;
+  @media (max-width: 640px) {
+    width: 90vw;
+    padding-left: 35px;
+  }
 `;
 
 const LeftPanel = styled.div``;
@@ -43,13 +58,20 @@ const RightPanel = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 50%;
   line-height: 2;
+  @media (max-width: 640px) {
+    width: 100%;
+  }
 `;
 
 const Title = styled.p`
   font-size: 28px;
   margin-bottom: 20px;
+  @media (max-width: 640px) {
+    font-size: 22px;
+    text-align: center;
+    margin-top: 25px;
+  }
 `;
 
 const Caption = styled.p`
@@ -65,4 +87,8 @@ const Button = styled.button`
   border: 1px solid black;
   font-size: 18px;
   padding: 8px 16px;
+  @media (max-width: 640px) {
+    padding: 6px 12px;
+    font-size: 15px;
+  }
 `;

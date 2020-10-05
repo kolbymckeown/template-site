@@ -86,14 +86,27 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin: 50px;
+  @media (max-width: 640px) {
+    margin: 15px;
+    margin-bottom: 35px;
+  }
 `;
 
 const Title = styled.p`
   font-size: 32px;
+  @media (max-width: 640px) {
+    font-size: 22px;
+    margin-top: 50px;
+    letter-spacing: 4px;
+
+  }
 `;
 
 const OptionsNav = styled.nav`
   margin-top: 45px;
+  @media (max-width: 640px) {
+    margin-top: 25px;
+  }
 `;
 
 const A = styled.a`
@@ -101,6 +114,9 @@ const A = styled.a`
   margin: 15px;
   text-decoration: none;
   cursor: pointer;
+  @media (max-width: 640px) {
+    font-size: 12px;
+  }
 `;
 
 const ItemsCont = styled.div`
@@ -108,8 +124,17 @@ const ItemsCont = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 35px;
   width: 50vw;
+  @media (max-width: 640px) {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font-size: 12px;
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+  }
 `;
 
 const Item = styled.div`
@@ -118,10 +143,16 @@ const Item = styled.div`
   align-items: center;
   justify-content: center;
   padding: 50px;
+  @media (max-width: 640px) {
+    padding: 25px;
+  }
 `;
 
 const ItemImg = styled.img`
   height: 300px;
+  @media (max-width: 640px) {
+    height: 150px;
+  }
 `;
 
 const ItemName = styled.p`
@@ -141,4 +172,8 @@ const Button = styled.button`
   padding: 10px 20px;
   border: none;
   font-size: 14px;
+  @media (max-width: 640px) {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 `;

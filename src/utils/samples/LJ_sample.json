@@ -81,7 +81,8 @@
     "buttonText": "View All"
   },
   "banner": {
-    "url": "https://kr.larssonjennings.com/images/home/featured/pb4-en-d.jpg"
+    "url": "https://kr.larssonjennings.com/images/home/featured/pb4-en-d.jpg",
+    "url2": "https://kr.larssonjennings.com/images/home/featured/pb4-en-m.jpg"
   },
   "imageCaption": {
     "image": "https://kr.larssonjennings.com/images/home/watches/timeless-british-design.jpg",
@@ -103,6 +104,7 @@
     }
   },
   "footer": {
-    "img": "https://i.ibb.co/0jp5vcS/Footer.png"
+    "img": "https://i.ibb.co/0jp5vcS/Footer.png",
+    "img2": "https://i.ibb.co/8Mt70nP/Mobile-Footer.png"
   }
 }
