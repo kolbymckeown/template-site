@@ -86,7 +86,7 @@ const Wrapper = styled.div`
   justify-content: center;
   align-items: center;
   margin: 50px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     margin: 15px;
     margin-bottom: 35px;
   }
@@ -94,14 +94,14 @@ const Wrapper = styled.div`
 
 const Title = styled.p`
   font-size: 32px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     font-size: 22px;
   }
 `;
 
 const OptionsNav = styled.nav`
   margin-top: 45px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     margin-top: 25px;
   }
 `;
@@ -120,7 +120,7 @@ const ItemsCont = styled.div`
   align-items: center;
   flex-wrap: wrap;
   margin: 35px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 12px;
@@ -135,14 +135,14 @@ const Item = styled.div`
   align-items: center;
   justify-content: center;
   padding: 50px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     padding: 25px;
   }
 `;
 
 const ItemImg = styled.img`
   height: 300px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     height: 150px;
   }
 `;

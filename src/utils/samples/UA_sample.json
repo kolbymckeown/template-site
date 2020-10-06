@@ -103,8 +103,69 @@
       "p2": "The Project Rock collection isn't about a name or a logo—it's about the gear you need to put in the work and overcome any obstacle. New aerodynamic cut and soft, straight feel. Wicks sweat and dries fast to keep you cool. Stretchy, anti-odor fabric is built to last. New streamlined fit and cut. Same soft, ultralight feel and quick-drying, sweat-wicking performance."
     }
   },
-  "footer": {
-    "img": "https://i.ibb.co/0jp5vcS/Footer.png",
-    "img2": "https://i.ibb.co/8Mt70nP/Mobile-Footer.png"
-  }
+  "footerLinks1": [
+    {
+      "title": "About Us",
+      "link": "#"
+    },
+    {
+      "title": "Privacy Policy",
+      "link": "#"
+    },
+    {
+      "title": "Terms of Sale",
+      "link": "#"
+    },
+    {
+      "title": "Terms of Use",
+      "link": "#"
+    },
+    {
+      "title": "Visit Our UK Website",
+      "link": "#"
+    },
+    {
+      "title": "Customer Service",
+      "link": "#"
+    }
+  ],
+  "footerLinks2": [
+    {
+      "title": "FAQs",
+      "link": "#"
+    },
+    {
+      "title": "Covid-19 Update",
+      "link": "#"
+    },
+    {
+      "title": "Orders & Payments",
+      "link": "#"
+    },
+    {
+      "title": "Promotions",
+      "link": "#"
+    },
+    {
+      "title": "Contact Us",
+      "link": "#"
+    },
+    {
+      "title": "Product Information",
+      "link": "#"
+    },
+    {
+      "title": "Shipping",
+      "link": "#"
+    },
+    {
+      "title": "Returns",
+      "link": "#"
+    },
+    {
+      "title": "Warranty Information",
+      "link": "#"
+    }
+  ]  
 }
+

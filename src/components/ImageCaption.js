@@ -31,7 +31,7 @@ const Wrapper = styled.div`
   margin-top: 50px;
   /* margin-right: 150px; */
   width: 100%;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     display: flex;
     flex-direction: column;
     margin-right: 0px;
@@ -45,7 +45,7 @@ const Img = styled.img`
   width: 100%;
   height: auto;
   padding-left: 155px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     width: 90vw;
     padding-left: 35px;
   }
@@ -59,7 +59,7 @@ const RightPanel = styled.div`
   justify-content: center;
   align-items: center;
   line-height: 2;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     width: 100%;
   }
 `;
@@ -67,7 +67,7 @@ const RightPanel = styled.div`
 const Title = styled.p`
   font-size: 28px;
   margin-bottom: 20px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     font-size: 22px;
     text-align: center;
     margin-top: 25px;
@@ -87,7 +87,7 @@ const Button = styled.button`
   border: 1px solid black;
   font-size: 18px;
   padding: 8px 16px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     padding: 6px 12px;
     font-size: 15px;
   }

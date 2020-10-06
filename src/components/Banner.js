@@ -19,7 +19,7 @@ export default Banner;
 
 const Wrapper = styled.div`
   width: 100%;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     display: none;
   }
 `;
@@ -28,7 +28,7 @@ const Img = styled.img`
 `;
 
 const WrapperMobile = styled.div`
-  @media (min-width: 641px) {
+  @media (min-width: 769px) {
     display: none;
   }
 `;

@@ -103,8 +103,68 @@
       "p2": "Larsson & Jennings’ watches are designed in house, partnering with trusted manufacturers to ensure quality is at the heart of every product. We use only hand-finished materials to deliver premium detailing and durability."
     }
   },
-  "footer": {
-    "img": "https://i.ibb.co/0jp5vcS/Footer.png",
-    "img2": "https://i.ibb.co/8Mt70nP/Mobile-Footer.png"
-  }
+  "footerLinks1": [
+    {
+      "title": "About Us",
+      "link": "#"
+    },
+    {
+      "title": "Privacy Policy",
+      "link": "#"
+    },
+    {
+      "title": "Terms of Sale",
+      "link": "#"
+    },
+    {
+      "title": "Terms of Use",
+      "link": "#"
+    },
+    {
+      "title": "Visit Our UK Website",
+      "link": "#"
+    },
+    {
+      "title": "Customer Service",
+      "link": "#"
+    }
+  ],
+  "footerLinks2": [
+    {
+      "title": "FAQs",
+      "link": "#"
+    },
+    {
+      "title": "Covid-19 Update",
+      "link": "#"
+    },
+    {
+      "title": "Orders & Payments",
+      "link": "#"
+    },
+    {
+      "title": "Promotions",
+      "link": "#"
+    },
+    {
+      "title": "Contact Us",
+      "link": "#"
+    },
+    {
+      "title": "Product Information",
+      "link": "#"
+    },
+    {
+      "title": "Shipping",
+      "link": "#"
+    },
+    {
+      "title": "Returns",
+      "link": "#"
+    },
+    {
+      "title": "Warranty Information",
+      "link": "#"
+    }
+  ] 
 }

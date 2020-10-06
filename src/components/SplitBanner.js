@@ -15,7 +15,7 @@ export default SplitBanner;
 
 const Wrapper = styled.div`
   display: flex;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     flex-direction: column;
   }
 `;
@@ -23,7 +23,7 @@ const Wrapper = styled.div`
 const Img1 = styled.img`
   width: 50%;
   margin-right: 5px;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     width: 100%;
     margin-right: 0;
   }
@@ -33,7 +33,7 @@ const Img2 = styled.img`
   width: 50%;
   margin-left: 5px;
   overflow: hidden;
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     width: 100%;
     margin-left: 0;
     margin-top: 8px;

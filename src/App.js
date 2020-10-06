@@ -11,6 +11,8 @@ import Footer from "./components/Footer";
 import GlobalStyles from "./components/GlobalStyles";
 import { theme } from "./theme";
 import { ThemeProvider } from "styled-components";
+import Payments from './components/Payments';
+
 
 function App() {
   return (
@@ -26,6 +28,7 @@ function App() {
         <NewArrivals />
         <ImageCaption2 />
         <Footer />
+        
         <GlobalStyles />
       </div>
     </ThemeProvider>
