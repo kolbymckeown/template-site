@@ -14,6 +14,7 @@ export const StyledMenu = styled.nav`
   left: 0;
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
+
   
   @media (max-width: ${({ theme }) => theme.mobile}) {
     width: 75%;
@@ -22,6 +23,8 @@ export const StyledMenu = styled.nav`
   a {
     /* font-size: 2rem; */
     text-transform: uppercase;
+  display: ${({ open }) => (open ? "unset" : "none")};
+
     padding: 2rem 0;
     letter-spacing: 0.5rem;
     color: black;

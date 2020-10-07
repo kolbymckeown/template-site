@@ -120,7 +120,7 @@ const ItemsCont = styled.div`
   align-items: center;
   flex-wrap: wrap;
   margin: 35px;
-  @media (max-width: 768px) {
+  @media (max-width: 1300px) {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 12px;

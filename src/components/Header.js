@@ -63,13 +63,13 @@ const Header = () => {
 export default Header;
 
 const Wrapper = styled.div`
-  @media (max-width: 769px) {
+  @media (max-width: 901px) {
     display: none;
   }
 `;
 
 const MobileDiv = styled.div`
-  @media (min-width: 768px) {
+  @media (min-width: 900px) {
     display: none;
   }
 `;

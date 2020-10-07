@@ -127,7 +127,7 @@ const ItemsCont = styled.div`
   flex-wrap: wrap;
   margin-top: 35px;
   /* width: 50vw; */
-  @media (max-width: 768px) {
+  @media (max-width: 1300px) {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 12px;
