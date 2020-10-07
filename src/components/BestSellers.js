@@ -118,9 +118,11 @@ const ItemsCont = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   margin: 35px;
   @media (max-width: 1300px) {
+    flex-wrap: wrap;
+  }
+  @media (max-width: 768px) {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 12px;

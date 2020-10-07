@@ -30,7 +30,7 @@ export const StyledMenu = styled.nav`
     color: black;
     text-decoration: none;
     transition: color 0.3s linear;
-    position: absolute;
+    /* position: absolute; */
     top: 115px;
     :first-child {
       top: 185px;
