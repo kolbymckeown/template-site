@@ -125,9 +125,9 @@ const ItemsCont = styled.div`
   justify-content: center;
   align-items: center;
   margin-top: 35px;
-  @media (max-width: 1300px) {
+  /* @media (max-width: 1300px) {
     flex-wrap: wrap;
-  }
+  } */
   /* width: 50vw; */
   @media (max-width: 1300px) {
     display: grid;

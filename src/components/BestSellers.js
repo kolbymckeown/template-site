@@ -119,10 +119,10 @@ const ItemsCont = styled.div`
   justify-content: center;
   align-items: center;
   margin: 35px;
-  @media (max-width: 1300px) {
+  /* @media (max-width: 1300px) {
     flex-wrap: wrap;
-  }
-  @media (max-width: 768px) {
+  } */
+  @media (max-width: 1300px) {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     font-size: 12px;
